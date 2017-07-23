@@ -260,7 +260,8 @@ class PID_GUI():
         plt.ylabel('x(t) (meters)')
         plt.xlabel('Time (seconds)')
         #plt.axis([-1, t_end, -.5, 1.5])
-        plt.legend(handles=[line1,line2])
+        # plt.legend(handles=[line1,line2])
+        plt.legend([line1,line2], loc='best')
         plt.show()
 
 
